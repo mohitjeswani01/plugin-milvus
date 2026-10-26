@@ -26,7 +26,7 @@ import java.util.Map;
 @Getter
 @NoArgsConstructor
 @Schema(
-    title = "Insert or update rows in a Milvus collection.",
+    title = "Insert or update rows in a Milvus collection",
     description = "Upserts rows in configurable batch sizes. Each row is a flat map with the collection's vector field, primary key field (unless auto-generated), and any scalar fields. Reads from an inline list or a Kestra internal storage URI."
 )
 @Plugin(

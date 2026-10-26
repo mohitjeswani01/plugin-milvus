@@ -30,7 +30,7 @@ import java.util.Map;
 @Getter
 @NoArgsConstructor
 @Schema(
-    title = "Search for similar vectors in a Milvus collection.",
+    title = "Search for similar vectors in a Milvus collection",
     description = "Runs an approximate nearest-neighbor vector similarity search, optionally narrowed with a scalar filter expression."
 )
 @Plugin(

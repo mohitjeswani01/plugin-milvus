@@ -21,7 +21,7 @@ import java.util.List;
 @Getter
 @NoArgsConstructor
 @Schema(
-    title = "Delete rows from a Milvus collection.",
+    title = "Delete rows from a Milvus collection",
     description = "Deletes rows by a list of primary key IDs, or by a scalar filter expression. Exactly one of ids or filter must be set."
 )
 @Plugin(

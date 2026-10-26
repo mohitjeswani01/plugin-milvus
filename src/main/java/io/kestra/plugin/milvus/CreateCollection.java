@@ -24,7 +24,7 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @NoArgsConstructor
 @Schema(
-    title = "Create a Milvus collection.",
+    title = "Create a Milvus collection",
     description = "Creates a collection with a single vector field and a primary key field, using Milvus's quick-setup schema. For a custom multi-field schema, create the collection with the Milvus SDK or console first and use the Upsert, Search, and Delete tasks against it directly."
 )
 @Plugin(

@@ -23,7 +23,7 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @NoArgsConstructor
 @Schema(
-    title = "Drop a Milvus collection.",
+    title = "Drop a Milvus collection",
     description = "Permanently deletes a collection and all of its rows. This cannot be undone."
 )
 @Plugin(
