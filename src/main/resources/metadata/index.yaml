@@ -1,0 +1,8 @@
+group: io.kestra.plugin.milvus
+name: "milvus"
+title: "Milvus"
+description: "Tasks for creating and managing collections, upserting, searching, and deleting rows in the Milvus vector database."
+body: "Integrate Kestra with Milvus to build scalable vector search and AI workflows, including RAG pipelines and semantic search."
+videos: []
+createdBy: "mohitjeswani01"
+managedBy: "mohitjeswani01"
