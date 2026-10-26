@@ -43,5 +43,5 @@ jobs:
     uses: kestra-io/actions/.github/workflows/plugins.yml@main
     with:
       skip-test: ${{ github.event.inputs.skip-test == 'true' }}
-      kestra-version: ${{ github.event.inputs.kestra-version }}
+      kestra-version: ${{ github.event.inputs.kestra-version != '' && github.event.inputs.kestra-version || '2.0.7' }}
     secrets: inherit
