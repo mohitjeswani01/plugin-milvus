@@ -51,7 +51,7 @@ dependencies {
     compileOnly group: "io.kestra", name: "script", version: kestraVersion
 
     // Milvus official Java SDK
-    implementation "io.milvus:milvus-sdk-java:3.0.10"
+    implementation "io.milvus:milvus-sdk-java:3.0.12"
 }
 
 
